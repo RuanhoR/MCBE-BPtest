@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>index</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+  <button id="a" onclick="addPages()">Script版本列表</button>
+  <button id="b" onclick="addPages()">没想好</button>
+  <div id="app"></div>
+  <script>
+    let Pages = 0
+    const Lbs = ["<iframe src='version.html'></iframe>","<iframe src='sd2.html'></iframe>"]
+    function addPages() {
+      Pages++
+      if (Pages >= 2) Pages = 0
+      document.getElementById("app").innerHTML=Lbs[Pages]
+    }
+    <iframe src="version.html"></iframe>
+  </script>
+ </body>
+</html>
