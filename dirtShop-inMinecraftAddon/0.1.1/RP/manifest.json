@@ -1,0 +1,60 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "0.1.1 键入/structure load 9999ua加载兑换区\n提示加载失败无需担心",
+    "name": "泥土交易商店",
+    "uuid": "517c4ebb-1619-f8a0-66ab-a962a199e360",
+    "version": [
+      0,
+      1,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      51
+    ]
+  },
+  "modules": [
+    {
+      "description": "pack.description",
+      "type": "resources",
+      "uuid": "27289ad3-a1a3-4b10-8d7d-ca6cbca10b0b",
+      "version": [
+        0,
+        1,
+        1
+      ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "a",
+      "name": "+ 村民跨级交易",
+      "memory_tier": 4
+    },
+    {
+      "folder_name": "b",
+      "name": "pack.subpacks.name.1",
+      "memory_tier": 4
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "泥土商店行为包版本，/structure load 9999ua ~~~召唤兑换区域"
+    },
+    {
+      "type": "label",
+      "text": "/function 1/give获得op物品，/function 1/part获得脚下粒子"
+    },
+    {
+      "type": "label",
+      "text": "§4§l使用泥土商店功能时，请加上配套行为包！否则没法正常使用！"
+    },
+    {
+      "type": "label",
+      "text": "by PainedFish20934 ~~ "
+    }
+  ]
+}
