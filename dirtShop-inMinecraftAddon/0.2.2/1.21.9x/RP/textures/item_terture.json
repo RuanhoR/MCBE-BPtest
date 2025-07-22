@@ -1,0 +1,12 @@
+{
+ "resource_pack_name": "dirt shop",
+ "texture_name": "atlas.items",
+ "texture_data": {
+  "a": {
+   "textures": "textures/items/a.png"
+  },
+  "pitt": {
+   "textures": "textures/items/p.png"
+  }
+ }
+}
