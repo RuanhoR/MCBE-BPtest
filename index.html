@@ -2,23 +2,25 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>index</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <title>导航</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 </head>
 
 <body>
-    <button id="a" onclick="addPages(0)">Script版本列表</button>
-    <button id="b" onclick="addPages(1)">没想好</button>
-    <div id="app"></div>
-    <script>
-        document.getElementById("app").innerHTML="l"
-            const Lbs = ["0<iframe src='version.html'></iframe>","1<iframe src='sd2.html'></iframe>"]
-            function addPages(t) {
-              document.getElementById("app").innerHTML=Lbs[t]
-            }
-    </script>
+  <button id="a" onclick="setPages(0)">其他功能</button>
+  <button id="b" onclick="setPages(1)">作者链接</button>
+  <div id="app"></div>
+  <script>
+    const Lbs = [
+        "<iframe src='main.html'></iframe>",
+        "<a href='https://b23.tv/PXbln3z'>B站</a><br><a href='https://github.com/RuanhoR/MCBE-BPtest'>仓库</a>"
+    ]
+    function setPages(t) {
+      document.getElementById("app").innerHTML=Lbs[t]
+    }
+  </script>
 </body>
 
 </html>
