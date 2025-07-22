@@ -1,0 +1,8 @@
+{
+  "tier_stack_panel": {
+    "bindings": []
+  },
+  "trade_toggle": {
+    "$toggle_enabled_binding_type": "none"
+  }
+}
