@@ -1,0 +1,1 @@
+export const config = [0.8,'silverfish']

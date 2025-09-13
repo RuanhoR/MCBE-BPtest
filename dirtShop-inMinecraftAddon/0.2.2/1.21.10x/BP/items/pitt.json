@@ -1,0 +1,34 @@
+{
+ "format_version": "1.21.10",
+ "minecraft:item": {
+  "description": {
+   "identifier": "nt:a_sword1",
+   "menu_category": {
+    "category": "equipment",
+    "group": "itemGroup.name.pickaxe",
+    "is_hidden_in_commands": false
+   }
+  },
+  "components": {
+   "minecraft:icon": "pitt",
+   "minecraft:display_name": {
+    "value": "§r多功能工具\n剑、斧、镐、铲的极致融合品，可破坏基岩\n+infinity"
+   },
+   "minecraft:glint": true,
+   "minecraft:max_stack_size": 1,
+   "minecraft:hand_equipped": true,
+   "minecraft:mining_speed": 500000000,
+   "minecraft:digger": {
+    "use_efficiency": true,
+    "destroy_speeds": [
+     {
+      "block": {
+       "tags": "!q.any_tag('air')"
+      },
+      "speed": 500000000
+     }
+    ]
+   }
+  }
+ }
+}

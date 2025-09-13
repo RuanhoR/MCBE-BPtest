@@ -1,0 +1,27 @@
+{
+ "resource_pack_name": "dirt shop",
+ "texture_name": "atlas.items",
+ "texture_data": {
+  "MenuShow": {
+   "textures": "textures/items/t.png"
+  },
+  "a": {
+   "textures": "textures/items/a.png"
+  },
+  "b": {
+   "textures": "textures/items/b.png"
+  },
+  "dieshopping": {
+   "textures": "textures/items/bcr.png"
+  },
+  "pitt": {
+   "textures": "textures/items/p.png"
+  },
+  "block": {
+   "textures": "textures/items/shop"
+  },
+  "fifth": {
+   "textures": "textures/items/fifth.png"
+  }
+ }
+}

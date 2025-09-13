@@ -1,0 +1,26 @@
+{
+ "format_version": "1.20.100",
+ "minecraft:item": {
+  "description": {
+   "identifier": "nt:a_sword",
+   "menu_category": {
+    "category": "equipment"
+   }
+  },
+  "components": {
+   "minecraft:hand_equipped": false,
+   "minecraft:foil": true,
+   "minecraft:glint": true,
+   "allow_off_hand": {
+    "value": true
+   },
+   "minecraft:max_stack_size": 1,
+   "minecraft:stacked_by_data": true,
+   "minecraft:can_destroy_in_creative": false,
+   "minecraft:icon": "a",
+   "minecraft:display_name": {
+    "value": "§4护§e身§8符§r"
+   }
+  }
+ }
+}
